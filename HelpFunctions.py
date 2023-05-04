@@ -17,7 +17,7 @@ def change_data_type(dataframe, column,data_type):
     """
     
     dataframe[column] = dataframe[column].astype(data_type)
-    
-    return dataframe
+          
+    return None
     
 
